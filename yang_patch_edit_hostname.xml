@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yang-patch xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-patch">
+	<patch-id>edit-hostname-patch</patch-id>
+	<edit>
+		<edit-id>edit1</edit-id>
+		<operation>create</operation>
+		<target>/hostname=IOSXE-Router1</target>
+		<value>
+			<hostname xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">RM-Router1</hostname>
+		</value>
+	</edit>
+	<edit>
+		<edit-id>edit2</edit-id>
+		<operation>create</operation>
+		<target>/interface/Loopback=1</target>
+		<value>
+			<interface xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+				<Loopback>
+					<name>1</name>
+				</Loopback>
+			</interface>
+		</value>
+	</edit>
+</yang-patch>
