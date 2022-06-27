@@ -6,7 +6,7 @@
 		<operation>create</operation>
 		<target>/hostname=IOSXE-Router1</target>
 		<value>
-			<hostname xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">RM-Router1</hostname>
+			<hostname xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">Router-10</hostname>
 		</value>
 	</edit>
 	<edit>
